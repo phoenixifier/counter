@@ -14,7 +14,7 @@
     font-size: 130px;
 }
 
-.container button {
+.container .add_one {
     font-size: 70px;
     background: black;
     color: white;
@@ -22,7 +22,20 @@
     border: none;
 }
 
-.container button:hover {
+.container .add_one:hover {
     background: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+.container .dec_one {
+    font-size: 70px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.container .dec_one:hover {
+    background: rgb(178, 18, 18);
     cursor: pointer;
 }
